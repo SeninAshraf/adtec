@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Find Your Event Photos</title></head>
+<body>
+  <h2>Take a Selfie to Find Your Event Photos</h2>
+  <video id="video" width="320" height="320" autoplay></video>
+  <button id="capture" type="button">Take Selfie</button>
+  <canvas id="canvas" width="320" height="320" style="display:none;"></canvas>
+  <form id="selfieForm">
+    <input type="hidden" name="selfie" id="selfieInput">
+    <button type="submit">Submit</button>
+  </form>
+  <div id="results"></div>
+  <script src="scripts/selfie.js"></script>
+</body>
+</html>
